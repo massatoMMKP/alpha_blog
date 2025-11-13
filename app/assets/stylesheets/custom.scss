@@ -1,0 +1,82 @@
+@import "bootstrap"; 
+
+.navbar {
+  background-color:rgb(0, 0, 0) !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+  #home-container {
+  margin-top: 80px !important;
+}
+
+
+
+.jumbotron {
+  background-image: url("jumbo-copy.jpg");
+  background-size: cover;       /* faz a imagem preencher */
+  background-position: center center;  /* centraliza */
+  background-repeat: no-repeat; /* evita repetição */
+  min-height: 400px;            /* altura mínima */
+  color: white;                 /* contraste do texto */
+}
+
+.jumbotron {
+  padding-top: 200px;   /* empurra o conteúdo para baixo */
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+/* Layout flex apenas na home */
+.home-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* O conteúdo principal ocupa o espaço disponível */
+#home-container {
+  flex: 1;
+}
+
+main {
+  flex: 1;
+}
+
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+
+}
+
+/* Estilo do rodapé */
+#sticky-footer {
+  background-color: #212529;
+  color: rgba(255, 255, 255, .5);
+  text-align: center;
+}
+
+
+

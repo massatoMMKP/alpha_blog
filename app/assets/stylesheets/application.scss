@@ -7,4 +7,9 @@
  * depending on specificity.
  *
  * Consider organizing styles into separate files for maintainability.
+
  */
+
+@use "bootstrap" as *;
+@use "custom" as *;
+
