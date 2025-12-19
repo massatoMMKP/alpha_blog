@@ -1,6 +1,11 @@
-
-<div class= "home-body">
+<div class="home-body">
   <h1 class= "text-center mt-4">Listing all articles</h1>
+
 
   <%= render 'article' %>
 
+  <div class="flickr_pagination">
+     <%= will_paginate @articles, :container => false %>
+  </div>
+</div>
+ 

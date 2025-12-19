@@ -7,6 +7,8 @@
         
         <div class="card-header fst-italic">
           By <%= @article.user.username if @article.user %>
+          <%= link_to gravatar_for(@article.user), user_path(@article.user) %>
+
         </div>
         
         <div class="card-body">
