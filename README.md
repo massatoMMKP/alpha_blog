@@ -18,7 +18,7 @@ It allows users to create, edit, view, and delete articles, as well as manage us
 - Associations between users and articles
 - Flash messages styled with Bootstrap
 - Pagination for articles
-- User profiles with avatar (Active Storage / Gravatar)
+- User profiles with avatar (Gravatar)
 - Responsive design with Bootstrap
 
 ## Requirements
