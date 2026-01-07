@@ -14,8 +14,9 @@
             <h5 class="card-title"><%= link_to gravatar_for(user, size: 150), user_path(user) %></h5>
             <p class="card-text"><%= pluralize(user.articles.count, "article") %></p>
             <a href="<%= user_path(user) %>" class= "btn btn-outline-success">View profile</a>
-            <a href="<%= edit_user_path(user) %>" class="btn btn-outline-info">Edit profile</a>
-           
+            <% if logged_in? && current_user == user %>
+              <a href="<%= edit_user_path(user) %>" class="btn btn-outline-info">Edit profile</a>
+            <% end %>
 
           <div class="card-footer text-muted">
             <small>
