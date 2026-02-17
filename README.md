@@ -41,25 +41,16 @@ It allows users to create, edit, view, and delete articles, as well as manage us
 
 ## Requirements
 - Ruby 3.x  
-- Rails 7.x  
+- Rails 8.x  
 - SQLite (development)  
 - Bundler  
 
-## Usage
-Clone the repository and run the project locally:
+## Deployment
+The application is live on Render:
 
-```bash
-git clone https://github.com/massatoMMKP/alpha_blog.git
-cd alpha_blog
-bundle install
-rails db:create db:migrate
-rails server
-```
-Open your browser and go to:
+(https://alpha-blog-nktd.onrender.com)
 
-```bash
-http://localhost:3000
-```
+
 
 ## Status
 Project completed and fully functional.
